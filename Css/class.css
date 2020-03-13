@@ -1,0 +1,388 @@
+/* *************************    class Selectors  ************************* */
+
+.topMost-container {
+    background-image: url(images/background/top-2.jpg);
+    background-size: 110vmax;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: unset;
+    position: relative;
+}
+
+.heading {
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: 27vh;
+    left: 50px;
+    color: aliceblue;
+}
+
+.heading h3 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 12vh;
+    color: #f4eeff;
+    line-height: 1em;
+}
+
+.heading h4 {
+    font-size: 5vh;
+    font-family: 'Black Ops One', cursive;
+    line-height: 1em;
+}
+
+.heading p {
+    font-family: 'Black Ops One', cursive;
+}
+
+._overflow {
+    overflow: hidden;
+}
+
+.abhay {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 7vh;
+    animation-name: _abhay;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+
+/* *************************   animation section  ************************* */
+
+@keyframes _abhay {
+    0% {
+        color: #D3CCE3;
+    }
+    100% {
+        /* color: #89216B; */
+        color: #F3F9A7;
+    }
+}
+
+
+/* *************************   nav-bar section  ************************* */
+
+.navbar-bg {
+    background-color: #151712;
+}
+
+.navbar-font-color {
+    color: #f4eeff;
+}
+
+
+/* skill */
+
+._skill-container {
+    margin: 0;
+}
+
+.skill {
+    /* margin-top: 2vh; */
+    /* display: inline-block; */
+    height: 95vh;
+    opacity: 0.8;
+}
+
+.skill:hover {
+    opacity: 1;
+}
+
+.skill-heading {
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Merriweather', serif;
+}
+
+._mar-top {
+    /* margin-top: 23vh; */
+    padding-top: 8em;
+}
+
+.skill-content {
+    /* margin-left: 19vw; */
+    text-align: center;
+}
+
+.skill-t {
+    font-size: 22px;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+._progress {
+    height: 2vh;
+    width: 50vw;
+    background-color: rgb(197, 193, 193);
+    display: inline-block;
+    border-radius: 30px;
+}
+
+._progress-bar {
+    background-color: rgb(29, 133, 231);
+    height: inherit;
+    text-align: center;
+    font-weight: bold;
+    border-radius: inherit;
+    font-size: 10px;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: initial;
+}
+
+._mg-auto {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* project */
+
+.project-background {
+    background-image: url(images/background/p.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    background-size: 100vmax;
+    /* background-size: 100vh; */
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    display: block;
+    background-position: unset;
+    position: static;
+}
+
+.project-background:hover {
+    opacity: 1;
+}
+
+.project-heading {
+    position: relative;
+    top: 3vh;
+    color: ivory;
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Merriweather', serif;
+    margin-top: 2vh;
+}
+
+
+/* card's */
+
+._cards {
+    /* code here */
+    /* margin-left: 259px; */
+    width: 32vw;
+    display: inline-block;
+    height: 42vh;
+    position: relative;
+    cursor: pointer;
+    transition: 3s ease;
+    background-color: #151515;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 9px;
+    opacity: 0.6;
+}
+
+._cards:hover {
+    opacity: 1;
+}
+
+._cards:hover>._cards-img {
+    opacity: 1;
+}
+
+._cards:hover>._cards-heading {
+    opacity: 1;
+}
+
+._cards-img {
+    border-radius: 9px;
+    text-align: center;
+    padding: 9px;
+}
+
+._cards-img img {
+    border-radius: 9px;
+    width: 30vw;
+    height: 36vh;
+}
+
+._cards-heading p {
+    text-align: center;
+    font-size: 3vh;
+    color: whitesmoke;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+._cards-show {
+    /* display: inline-block; */
+    font-size: 8vh;
+    position: relative;
+    top: 0;
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    margin-left: 190px;
+    /* margin-top: -190px; */
+    color: whitesmoke;
+    /* float: right; */
+    opacity: .7;
+    /* width: 32vw; */
+    display: inline-block;
+    /* height: 42vh; */
+    position: relative;
+    cursor: pointer;
+    transition: 5s ease;
+    background-color: #151515;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+._cards-show:hover>._cards-heading a {
+    opacity: 1;
+}
+
+
+/* ._align-center {
+    text-align: center;
+} */
+
+
+/* contact-me */
+
+.contact-me-box {
+    background-image: url(images/background/contact-me/o-size.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+}
+
+.contact-me-pos {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.contact-me-heading p {
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 10vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+a,
+u {
+    text-decoration: none !important;
+}
+
+
+/*Custom GitHub Button*/
+
+.github-button {
+    display: inline-block;
+    background: #000000;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    /* -webkit-transform: translateZ(0px); */
+}
+
+.github-button:hover {
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    /* -webkit-transform: translate(0px, -10px); */
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/*Custom LinkedIn Button*/
+
+.linkedin-button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #0077B5;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    /* -webkit-transform: translateZ(0px); */
+}
+
+.linkedin-button:hover {
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    /* -webkit-transform: translate(0px, -10px); */
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/*Custom Twitter Button*/
+
+.twitter-button {
+    display: inline-block;
+    background: #55acee;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    /* -webkit-transform: translateZ(0px); */
+}
+
+.twitter-button:hover {
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    /* -webkit-transform: translate(0px, -10px); */
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/*Custom CodePen Button*/
+
+.codepen-button {
+    display: inline-block;
+    margin-top: 10px;
+    background: #212121;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    /* -webkit-transform: translateZ(0px); */
+}
+
+.codepen-button:hover {
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    /* -webkit-transform: translate(0px, -10px); */
+    -webkit-font-smoothing: subpixel-antialiased;
+}
